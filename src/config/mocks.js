@@ -11,7 +11,7 @@ module.exports = {
           todo_total: 0
         },
         cards: {
-          [id++]: {
+          first: {
             order: 0,
             type: 0,
             title: 'Test Card',
