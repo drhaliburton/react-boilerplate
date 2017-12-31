@@ -1,16 +1,16 @@
 {
-  "name": "express-react-boilerplate",
-  "description": "A very basic boilerplate for an isomorphic Node app using Express and React with multiple DB support.",
+  "name": "Points",
+  "description": "Tbd.",
   "version": "0.1.0",
-  "homepage": "https://github.com/engvik/express-react-boilerplate/",
+  "homepage": "https://github.com/drhaliburton",
   "author": {
-    "name": "Lars Jansøn Engvik",
-    "email": "lars@engvik.nu",
-    "homepage": "https://github.com/engvik"
+    "name": "Rebecca Haliburton",
+    "email": "haliburtonre@gmail.com",
+    "homepage": "https://github.com/drhaliburton"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/engvik/express-react-boilerplate.git"
+    "url": "https://github.com/drhaliburton/points"
   },
   "engines": {
     "node": "0.12.7"
@@ -33,7 +33,8 @@
   },
   "scripts": {
     "prestart": "webpack",
-    "start": "node app.js"
+    "start": "node app.js",
+    "nodemon": "nodemon --watch start --watch config --watch bin ./bin/www"
   },
   "devDependencies": {
     "nodemon": "^1.13.3",

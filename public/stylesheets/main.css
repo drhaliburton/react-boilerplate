@@ -19,7 +19,6 @@ body {
   -webkit-animation: dark-gradient 30s ease infinite;
   -moz-animation: dark-gradient 30s ease infinite;
   animation: dark-gradient 30s ease infinite; }
-
 @-webkit-keyframes dark-gradient {
   0% {
     background-position: 4% 0%; }
@@ -27,7 +26,6 @@ body {
     background-position: 97% 100%; }
   100% {
     background-position: 4% 0%; } }
-
 @-moz-keyframes dark-gradient {
   0% {
     background-position: 4% 0%; }
@@ -35,7 +33,6 @@ body {
     background-position: 97% 100%; }
   100% {
     background-position: 4% 0%; } }
-
 @keyframes dark-gradient {
   0% {
     background-position: 4% 0%; }
@@ -43,7 +40,6 @@ body {
     background-position: 97% 100%; }
   100% {
     background-position: 4% 0%; } }
-
 .navbar-container {
   height: 60px;
   background-color: white;
@@ -51,3 +47,5 @@ body {
   background-color: white;
   border-radius: 1rem;
   opacity: .7; }
+
+/*# sourceMappingURL=main.css.map */

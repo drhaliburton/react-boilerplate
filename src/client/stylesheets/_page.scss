@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  height: 100vh;
+}
+
+.page-container {
+  margin: 4rem;
+}
+
+.view-container {
+  margin: 4rem 0;
+  padding: 2rem;
+  background-color: white;
+  opacity: .7;
+  border-radius: 1rem;
+  height: 100%;
+}
+
+.dark-gradient {
+  background: linear-gradient(133deg, #007991, #00002f, #50a296);
+  background-size: 600% 600%;
+
+  -webkit-animation: dark-gradient 30s ease infinite;
+  -moz-animation: dark-gradient 30s ease infinite;
+  animation: dark-gradient 30s ease infinite;
+
+  @-webkit-keyframes dark-gradient {
+      0%{background-position:4% 0%}
+      50%{background-position:97% 100%}
+      100%{background-position:4% 0%}
+  }
+  @-moz-keyframes dark-gradient {
+      0%{background-position:4% 0%}
+      50%{background-position:97% 100%}
+      100%{background-position:4% 0%}
+  }
+  @keyframes dark-gradient {
+      0%{background-position:4% 0%}
+      50%{background-position:97% 100%}
+      100%{background-position:4% 0%}
+  }
+}

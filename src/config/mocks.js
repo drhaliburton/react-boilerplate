@@ -1,7 +1,7 @@
 let id = 0;
 
 module.exports = {
- testData: {
+  testData: {
     users: {
       [id++]: {
         display_name: 'Rebecca',

@@ -1,26 +1,24 @@
 require('./stylesheets/main.scss');
 
-import {Card} from './components/Card.jsx';
-
-
-import {testData} from '../config/mocks';
+import { Page } from './components/Page.jsx';
+import { Navbar } from './components/Navbar.jsx';
 
 const React = require('react');
 
 class App extends React.Component {
     render() {
-        return (<div>
-            <h1>{testData.users[0].display_name}</h1>
-            <Card cardData={testData.users[0].cards.first} />
-        </div>);
+        return (
+            <div className="page-container">
+                <Navbar />
+                <Page />
+            </div>
+        );
     }
 }
 
 if (typeof window !== 'undefined') {
     window.React = React;
 }
-
-console.log(testData.cards)
 
 
 React.render(
